@@ -1,11 +1,11 @@
 # AWS AppConfig .NET Core Sample Console Application
 
 ## Prerequisites
-- .NET Core 3.1
+- .NET Core 6.0
 - AWSSDK.Core
 - AWSSDK.AppConfig
 - Newtonsoft.Json
-- AWS AppConfig Application, Environment, and Hosted Configuration created in your AWS Account and deployed using instructions provided in [AppConfig Immersion Day Lab](https://workshop.aws-management.tools/appconfig/) (Follow instructions to [Create an Application](https://workshop.aws-management.tools/appconfig/create-application/), [Create an Environment](https://workshop.aws-management.tools/appconfig/create-environment/), [Create Configuration Profile](https://workshop.aws-management.tools/appconfig/create-configuration-profile/) and [Deployment](https://workshop.aws-management.tools/appconfig/deployment/) manually through the console).
+- AWS AppConfig Application, Environment, and Hosted Configuration created in your AWS Account and deployed using instructions provided in [AppConfig Immersion Day Lab](https://mng.workshop.aws/appconfig.html) (Follow instructions to [Create an Application](https://mng.workshop.aws/appconfig/create-application.html), [Create an Environment](https://mng.workshop.aws/appconfig/create-environment.html), [Create Configuration Profile](https://workshop.aws-management.tools/appconfig/create-configuration-profile/) and [Deployment](https://mng.workshop.aws/appconfig/deployment.html) manually through the console).
 
 ## Overview
 This sample .NET Core console application provides guidance on how to properly call the AWS AppConfig GetConfiguration API call to retrieve your configuration data.  Furthermore, it focuses on how often the GetConfiguration API should be called and the parameters that should be used.
@@ -80,4 +80,4 @@ Then, use these commands:
 - [Receiving the Configuration (From AWS AppConfig User Guide)](https://docs.aws.amazon.com/appconfig/latest/userguide/appconfig-retrieving-the-configuration.html)
 - [AWS AppConfig GetConfiguration API call Request Syntax](https://docs.aws.amazon.com/appconfig/2019-10-09/APIReference/API_GetConfiguration.html#API_GetConfiguration_RequestSyntax)
 - [AWS AppConfig API Reference](https://docs.aws.amazon.com/appconfig/2019-10-09/APIReference/Welcome.html)
-- [AWS AppConfig Workshop](https://workshop.aws-management.tools/appconfig/)
+- [AWS AppConfig Workshop](https://mng.workshop.aws/appconfig.html)
